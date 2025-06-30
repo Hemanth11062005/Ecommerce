@@ -10,7 +10,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'your-secret-key-for-dev')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['ecommerce.onrender.com', 'localhost', '127.0.0.1']  # Replace with your domain
+ALLOWED_HOSTS = ['ecommerce-a5qy.onrender.com']
 
 # Application definition
 INSTALLED_APPS = [
